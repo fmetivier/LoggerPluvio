@@ -55,7 +55,7 @@ Liens
 * https://morpho.ipgp.fr/metivier/public/Howto/build/html/Arduino.html
 * Pour une discussion sur la pluie voire 
    
-  * cette ancienne station météo https://github.com/fmetivier/MeteoProject
+  * cette ancienne station météo https://github.com/fmetivier/MeteoProject_V2
   * cette discussion https://morpho.ipgp.fr/metivier/public/ScEd/build/html/Meteo.html 
   
 
