@@ -15,7 +15,10 @@ LoggerPluvio est un pluviomètre connecté à un datalogger autonome fonctionnan
 Tous les composants sont soudés sur une carte PCB conçue avec Fritzing.
 L'enregistreur est facile à construire (il fait partie d'un cours d'étudiant de premier cycle), facile à utiliser (il suffit de retirer la carte SD de temps en temps pour charger les données qui sont écrites sur un fichier texte ascii), et est indépendant de tout réseau et logiciel propriétaire.
 
-Avec un taux d'échantillonnage de 15 minutes, il fonctionne plus de cinq mois avec 3 piles AAA ou 11 mois avec 3 piles AA. Il est destiné à être déployé dans des endroits où la connexion est absente ou hasardeuse.
+Contrairement au LoggerMeteo il n'y a pas de fréquence d'échantillonnage, l'enregistrement à lieu dès qu'une bascule advient. 
+La limite de détection est donc celle de l'horloge RTC c'est à dire 1 seconde. Ce n'est pas un problème cependant car 1 seconde correspond à la fréquence à laquelle l'entonnoir du pluviomètre s'engorge c'est à dire qu'il que de l'eau s'accumule dans l'entonnoir. Cette limite correspond à une précipitation de près de 720 mm/h que nous avons peu de chance d'atteindre même sous les tropiques.
+Enfin le pluviomètre fonctionne normalement plus de cinq mois avec 3 piles AAA ou 11 mois avec 3 piles AA. Il est destiné à être déployé dans des endroits où la connexion est absente ou hasardeuse.
+
 
 Coût
 ====
